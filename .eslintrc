@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "airbnb-base"
+  ],
+  "rules": {
+    "react/jsx-uses-react": 1,
+    "react/jsx-uses-vars": 1,
+    "no-underscore-dangle": 0
+  },
+  "plugins": [
+    "react"
+  ],
+  "env": {
+    "es6": true,
+    "browser": true
+  },
+  "parser": "babel-eslint"
+}
+
